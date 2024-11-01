@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Music Player - MP3 &amp; all Audio Player</string>
+    <string name="privacypolicy">https://www.google.com</string>
+    <string name="developer">developer</string>
+    <string name="eq">Equalizer</string>
+    <string name="fav">Favorite</string>
+    <string name="home">Home</string>
+    <string name="how_was_your_experience_with_us">Share your experience with us</string>
+    <string name="later">Later</string>
+    <string name="library">Library</string>
+    <string name="library_name">Drag-Drop-Swipe-RecyclerView</string>
+    <string name="never">No,Thanks</string>
+    <string name="playlist">Playlist</string>
+    <string name="rate_now">Rate Now</string>
+    <string name="yal_ms_multiple_name">Multi Selection 123</string>
+
+</resources>

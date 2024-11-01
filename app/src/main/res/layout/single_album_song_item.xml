@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/parent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView android:id="@+id/cardView" android:layout_width="match_parent" android:layout_height="0dp" app:cardCornerRadius="@dimen/_8sdp" app:cardUseCompatPadding="true" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_launcher_background" android:scaleType="centerCrop"/>
+            <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_2sdp" android:src="@drawable/music_icon" android:tint="@color/white" android:layout_marginEnd="@dimen/_2sdp"/>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/cardView">
+            <TextView android:textSize="@dimen/_12ssp" android:textColor="#333333" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Happier" android:maxLines="1" android:singleLine="true" android:fontFamily="@font/bahnschrift" android:paddingStart="@dimen/_5sdp"/>
+            <TextView android:textSize="@dimen/_10ssp" android:textColor="@color/artist_color" android:ellipsize="end" android:id="@+id/artist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_1sdp" android:text="Marshmello" android:maxLines="1" android:singleLine="true" android:fontFamily="@font/bahnschrift" android:paddingStart="@dimen/_5sdp"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

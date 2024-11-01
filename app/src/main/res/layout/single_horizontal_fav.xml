@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_85sdp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/cardView"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/shadowImage"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_centerInParent="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo_round" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/music_icon"
+                android:tint="@color/white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardView"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/bahnschrift"
+                android:maxLines="1"
+                android:paddingStart="@dimen/_5sdp"
+                android:singleLine="true"
+                android:text="Happier"
+                android:textColor="#333333"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:id="@+id/artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:ellipsize="end"
+                android:fontFamily="@font/bahnschrift"
+                android:maxLines="1"
+                android:paddingStart="@dimen/_5sdp"
+                android:singleLine="true"
+                android:text="Marshmello"
+                android:textColor="@color/artist_color"
+                android:textSize="@dimen/_10ssp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

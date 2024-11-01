@@ -1,0 +1,30 @@
+buildscript {
+    ext.kotlin_version = '1.5.30'
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+        mavenCentral()
+
+        maven { url 'https://maven.google.com' }
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

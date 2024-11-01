@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="axis_dist_from_label">5dp</dimen>
+    <dimen name="axis_thickness">2dp</dimen>
+    <dimen name="bar_spacing">6dp</dimen>
+    <dimen name="font_size">10dp</dimen>
+    <dimen name="grid_thickness">1dp</dimen>
+    <dimen name="set_spacing">3dp</dimen>
+
+    <dimen name="viewpager_current_item_horizontal_margin">@dimen/_40sdp</dimen>
+    <dimen name="viewpager_next_item_visible">@dimen/_30sdp</dimen>
+    <dimen name="seek_bar_thickness">@dimen/_3sdp</dimen>
+
+</resources>

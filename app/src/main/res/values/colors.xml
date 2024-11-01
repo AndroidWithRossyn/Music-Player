@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="album_title">#555555</color>
+    <color name="appbar">#3d8cf1</color>
+    <color name="artist_color">#888888</color>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#3d8cf1</color>
+    <color name="colorPrimary">#3d8cf1</color>
+    <color name="colorPrimaryDark">#387fd9</color>
+    <color name="gray">#969595</color>
+    <color name="red">#ff0000</color>
+    <color name="search_layover_bg">#50000000</color>
+    <color name="title">#333333</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#ffffff</color>
+
+    <color name="swipeBehindBackground">#d0184c</color>
+    <color name="swipeBehindBackgroundSecondary">#17af98</color>
+    <color name="swipeBehindTextColor">#ffffff</color>
+    <color name="toolbar_text_color">#ffffff</color>
+    <color name="colorWindowBackground">#000</color>
+
+</resources>
